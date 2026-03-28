@@ -24,29 +24,6 @@ No NLP libraries used — sentiment is derived through lexicon-based word matchi
 
 `Python` · `re (Regex)` · `File I/O` · `Unicode/Hex Decoding`
 
-## Project Structure
-```
-├── GadekarShwetaleeHW1.ipynb   # Main analysis notebook
-├── Trump_Raw_Tweets.txt         # Raw input data
-├── positive.txt                 # Positive sentiment lexicon
-├── negative.txt                 # Negative sentiment lexicon
-├── stopwords.txt                # Stopwords list
-└── modified_new_line_trump_tweets.txt  # Intermediate cleaned file (auto-generated)
-```
-
-## How to Run
-```bash
-# Clone the repo
-git clone https://github.com/your-username/twitter-sentiment-analysis-python.git
-cd twitter-sentiment-analysis-python
-
-# Open the notebook
-jupyter notebook GadekarShwetaleeHW1.ipynb
-```
-
-> Make sure `Trump_Raw_Tweets.txt`, `positive.txt`, `negative.txt`, and `stopwords.txt`
-> are in the same directory as the notebook before running.
-
 ## Key Implementation Details
 
 - Hex-encoded characters (e.g. `\x80`) are decoded back to readable text manually using `bytes` and `utf-8`
